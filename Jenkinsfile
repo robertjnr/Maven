@@ -25,6 +25,7 @@ agent any
                 steps{
                     bat 'mvn install'
               }
+           }
       }
   }
 
