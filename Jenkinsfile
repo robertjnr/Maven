@@ -3,8 +3,9 @@ pipeline {
 agent any
   tools {
     maven 'Maven'
+  }
 
-    stages{
+    stages {
 
             stage('clean the code ')
             {
