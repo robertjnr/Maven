@@ -20,6 +20,11 @@ agent any
                     bat 'mvn test'
               }
           }
+           stage('Package')
+            {
+                steps{
+                    bat 'mvn install'
+              }
       }
   }
 
