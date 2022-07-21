@@ -1,4 +1,4 @@
-def hi(name){
-  println("hi"  ${name},how are u?")
+def call(name){
+   println("hi ${name},how are u?")
 }
     
