@@ -1,4 +1,4 @@
 def hi(name){
-  echo "hi"  $(name),how are u?"
+  echo "hi"  ${name},how are u?"
 }
     
